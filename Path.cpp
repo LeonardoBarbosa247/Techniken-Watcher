@@ -82,7 +82,7 @@ void technikenWatcher(Path p, int flag)
 {
     string watcher = (flag == CREATE ? " CREATE " : flag == MODIFY ? " MODIFY " : flag == DELETE ? " DELETE " : " MOVE ");
     puts((p.getFolder() + watcher + p.getFile()).c_str());
-    system("sudo ./TechnikenWatcher /Users/leonardo_barbosa/Documents/");
+    //system("sudo ./TechnikenWatcher /Users/leonardo_barbosa/Documents/");
     exit(0);
 }
 
